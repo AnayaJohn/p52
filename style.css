@@ -1,0 +1,68 @@
+h1{
+    color:white       }
+
+    .Header{
+        background-color: teal;
+        display:flex;
+        justify-content: space-between;
+        border: solid
+        
+    }
+
+    .Grids{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .Animals img{
+        border: solid
+    }
+
+    p,h2{
+        text-align: center;
+    }
+
+    a:link{
+        color: white;
+    }
+
+    a:visited{
+        color:thistle
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #ffffff
+    }
+
+    .menu a{
+        justify-content: space-between;
+        padding-right: 5px;
+    }
+
+    .Grids img{
+        border: 2px solid #000000;
+        border-radius: 50px;
+    }
+
+    .Animals {
+        border-radius: 20px;
+        background-color: ffffff;
+        padding: 30px;
+        margin: 25px;
+        width: 310 px;
+        font-family: fantasy;
+    }
+
+    .Animals:hover{
+        transform: scale(1.1);
+    }    
+    
+    
+    
+    
